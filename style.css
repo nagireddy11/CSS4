@@ -99,7 +99,7 @@ h4 {
 .grid6 {
   background-color: orange;
   font-size: 15px;
-  height: 80px;
+  height: 100px;
   grid-column: 1 / span 3;
 }
 .grid5 {
@@ -109,8 +109,11 @@ h4 {
   grid-column-start: 4;
   grid-column-end: 5;
   font-size: 15px;
-  text-decoration: underline;
 }
 .grid5 ol {
   list-style-position: inside;
+}
+.grid5 ol li {
+  border-bottom: 2px solid whitesmoke;
+  font-size: 15px;
 }
